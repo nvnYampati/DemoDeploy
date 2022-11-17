@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Engine_Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Engine Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Good</fullName>
+                <default>false</default>
+                <label>Good</label>
+            </value>
+            <value>
+                <fullName>Change Oil</fullName>
+                <default>false</default>
+                <label>Change Oil</label>
+            </value>
+            <value>
+                <fullName>Breakdown</fullName>
+                <default>false</default>
+                <label>Breakdown</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Driving_License_V_R</fullName>
+    <active>true</active>
+    <errorConditionFormula>REGEX( Driving_License_Number__c , &quot;[A-Z]{1,2}&quot;)  &amp;&amp; CONTAINS( Driving_License_Number__c, &quot;AN:AP:AR:AS:BR:CH:CT:DH:DL:GA:GJ:HR:HP:JK:JH:KA:KL:LA:LD:MP:MH:MN:ML:MZ:NL:OR:PY:PB:RJ:SK:TN:TS:TR:UT:UP:WB&quot;)</errorConditionFormula>
+    <errorMessage>License must be of valid State or Union Territory.</errorMessage>
+</ValidationRule>
